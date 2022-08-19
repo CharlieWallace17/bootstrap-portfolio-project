@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-portfolio-project",
+  "version": "1.0.0",
+  "description": "I intend to showcase what I've learned in the NuCamp Bootstrap course with a hiking website.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreenGimli/bootstrap-portfolio-project.git"
+  },
+  "author": "Charlie Wallace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GreenGimli/bootstrap-portfolio-project/issues"
+  },
+  "homepage": "https://github.com/GreenGimli/bootstrap-portfolio-project#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
