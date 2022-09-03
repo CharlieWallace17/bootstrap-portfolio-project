@@ -3,3 +3,33 @@ $color-secondary: #90B77D;
 $color-pale: #D2D79F;
 $color-dark: #483838;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
+
+$header-font: "Rock Salt", sans-serif;
+
+h1, h4 {
+    font-family: $header-font;
+}
+
+.jumbotron, 
+.card,
+.navbar-toggler {
+    background-color: $color-primary;
+}
+
+nav {
+    background-color: $color-dark;
+}
+
+nav a {
+    color: $color-pale;
+}
+
+body {
+    background-color: $color-secondary;
+    color: $color-pale;
+}
+
+footer {
+    width: 100%;
+    background-color: $color-dark;
+}

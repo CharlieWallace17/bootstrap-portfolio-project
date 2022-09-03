@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap">
 
     <title>Chattanooga Hiking Project</title>
 </head>
@@ -14,19 +16,18 @@
         <div class="container container-fluid">
             <div class="row">
                 <div class="col-2 mx-auto">Logo</div>
-                <h1 class="col-sm-8">The Chattanooga Hiking Project</h1>
-                <button class="col-2 btn-primary btn-lg mx-auto h-25">Login</button>
+                <h1 class="col-sm-10 text-right">The Chattanooga Hiking Project</h1>
             </div>
         </div>
     </div>
 
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <nav class="navbar navbar-expand-sm mb-3">
         <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav flex justify-content-center w-100 list-unstyled">
                 <li class="nav-item">
                     <a href="#" class="nav-link">About Us</a>
                 </li>
@@ -39,56 +40,57 @@
                 <li class="nav-item">
                     <a href="#" class="nav-link">Contact Us</a>
                 </li>
+                <li>
+                    <button class="btn btn-success">Login</button>
+                </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input type="search" class="form-control mr-sm-2" placeholder="Search" aria-label="Search">
-                <button type="submit" class="btn btn-outline-info my-2 my-sm-0">Go</button>
-            </form>
         </div>
     </nav>
 
-    <div class="container">
-        <div class="row">
-            <div class="card col-4" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-              <div class="card col-4" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-              <div class="card col-4" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-        </div>
-          <div class="row">
-              </div>
-              <div class="card col-4" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-              <div class="card col-4" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-              <div class="card col-4" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
+    <div class="card-columns">
+        <div class="card">
+            <img class="card-img-top" src="/img/reflection-riding.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title text-center">Reflection Riding Arboretum</h4>
+            </div>
           </div>
+          <div class="card">
+            <img class="card-img-top" src="/img/edwards-point.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title text-center">Edward's Point</h4>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="/img/bay-point-loop.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title text-center">Bay Point Loop</h4>
+            </div>
     </div>
+      <div class="card-columns">
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="/img/big-soddy-creek.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title text-center">Big Soddy Creek</h4>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="/img/foster-falls.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title text-center">Foster Falls</h4>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="/img/greenway-farms.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title text-center">Greenway Farms Loop</h4>
+            </div>
+          </div>
+      </div>
+
+      <footer>
+        <div>This is a footer.</div>
+      </footer>
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
