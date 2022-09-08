@@ -10,12 +10,20 @@ nav {
   background-color: #483838; }
 
 nav a {
-  color: #D2D79F; }
+  color: #D2D79F;
+  letter-spacing: 1px; }
 
 body {
   background-color: #90B77D;
-  color: #D2D79F; }
+  color: #D2D79F;
+  letter-spacing: 4px; }
 
 footer {
   width: 100%;
   background-color: #483838; }
+
+svg {
+  fill: #D2D79F; }
+
+.jumbotron {
+  background: linear-gradient(#42855B, #483838); }

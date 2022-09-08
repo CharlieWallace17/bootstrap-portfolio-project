@@ -22,14 +22,24 @@ nav {
 
 nav a {
     color: $color-pale;
+    letter-spacing: 1px;
 }
 
 body {
     background-color: $color-secondary;
     color: $color-pale;
+    letter-spacing: 4px;
 }
 
 footer {
     width: 100%;
     background-color: $color-dark;
+}
+
+svg {
+    fill: $color-pale;
+}
+
+.jumbotron {
+    background: linear-gradient($color-primary, $color-dark);
 }
