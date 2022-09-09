@@ -33,7 +33,6 @@ body {
 }
 
 footer {
-    width: 100%;
     background-color: $color-dark;
 }
 
@@ -45,6 +44,9 @@ svg {
     background: linear-gradient($color-primary, $color-dark);
 }
 
-footer {
-    height: 10%;
+.modal-header,
+form {
+    color: $color-dark;
+    font-weight: 600;
+    letter-spacing: 0px;
 }
