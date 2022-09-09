@@ -9,7 +9,8 @@ h1, h4 {
 nav {
   background-color: #483838; }
 
-nav a {
+a,
+footer {
   color: #D2D79F;
   letter-spacing: 1px; }
 
@@ -27,3 +28,6 @@ svg {
 
 .jumbotron {
   background: linear-gradient(#42855B, #483838); }
+
+footer {
+  height: 10%; }

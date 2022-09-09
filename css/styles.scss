@@ -20,7 +20,8 @@ nav {
     background-color: $color-dark;
 }
 
-nav a {
+a,
+footer {
     color: $color-pale;
     letter-spacing: 1px;
 }
@@ -42,4 +43,8 @@ svg {
 
 .jumbotron {
     background: linear-gradient($color-primary, $color-dark);
+}
+
+footer {
+    height: 10%;
 }
