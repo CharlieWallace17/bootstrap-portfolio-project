@@ -57,7 +57,7 @@ html, body {
     overflow-x: hidden;
 }
 
-button.btn {
+nav button.btn {
     background-color: $color-primary;
     color: $color-pale;
     font-size: 1.5rem;
@@ -74,4 +74,8 @@ button.btn {
 
 .modal-content {
     font-size: 1.1rem;
+}
+
+.modal-title {
+    font-size: 3rem;
 }

@@ -39,7 +39,7 @@ html, body {
   max-width: 100%;
   overflow-x: hidden; }
 
-button.btn {
+nav button.btn {
   background-color: #42855B;
   color: #ecf1be;
   font-size: 1.5rem;
@@ -54,3 +54,6 @@ button.btn {
 
 .modal-content {
   font-size: 1.1rem; }
+
+.modal-title {
+  font-size: 3rem; }
