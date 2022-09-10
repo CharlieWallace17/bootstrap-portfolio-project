@@ -11,25 +11,46 @@ nav {
 
 a,
 footer {
-  color: #D2D79F;
+  color: #ecf1be;
   letter-spacing: 1px; }
 
 body {
   background-color: #90B77D;
-  color: #D2D79F;
+  color: #ecf1be;
   letter-spacing: 4px; }
 
 footer {
   background-color: #483838; }
 
 svg {
-  fill: #D2D79F; }
+  fill: #ecf1be; }
 
 .jumbotron {
   background: linear-gradient(#42855B, #483838); }
 
 .modal-header,
-form {
+form,
+form a {
   color: #483838;
   font-weight: 600;
   letter-spacing: 0px; }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden; }
+
+button.btn {
+  background-color: #42855B;
+  color: #ecf1be;
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 10rem;
+  margin-bottom: 1rem; }
+
+.modal-header {
+  color: #ecf1be;
+  background-color: #483838;
+  width: 100%; }
+
+.modal-content {
+  font-size: 1.1rem; }

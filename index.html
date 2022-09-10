@@ -23,9 +23,9 @@
   </head>
   <body>
     <div class="jumbotron jumbotron-fluid mb-0">
-      <div class="container-fluid">
+      <div class="container">
         <div class="row align-items-center mt-3">
-          <div class="col-sm-2 text-center mb-3 ml-n4">
+          <div class="col-sm-2 text-center text-sm-right mb-3 ml-n4">
             <a href="#">
               <svg
                 width="120px"
@@ -45,7 +45,6 @@
         </div>
       </div>
     </div>
-
     <nav class="navbar navbar-expand-sm mb-3">
       <button
         class="navbar-toggler mx-auto"
@@ -58,75 +57,51 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul
-          class="navbar-nav flex justify-content-center w-100 list-unstyled align-items-center"
+          class="navbar-nav w-100 list-unstyled align-items-center"
         >
+        
           <li class="nav-item mr-1 h4">
             <a href="#" class="nav-link">About Us</a>
           </li>
           <li class="nav-item mr-1 h4">
             <a href="#" class="nav-link">Trails</a>
           </li>
+          
           <li class="nav-item mr-1 h4">
             <a href="#" class="nav-link">Donate</a>
           </li>
           <li class="nav-item mr-1 h4">
             <a href="#" class="nav-link">Contact Us</a>
           </li>
-          <li>
-            <button type="button" class="btn btn-success font-weight-bold px-4" data-toggle="modal" data-target="#loginModal">Login</button>
-          </li>
+          
         </ul>
+          <button type="button" class="btn btn-success font-weight-bold" data-toggle="modal" data-target="#loginModal">Login</button>
       </div>
     </nav>
 
     <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
-            <div class="modal-content container">
-                <div class="modal-header font-weight-bold row">
+            <div class="modal-content">
+                <div class="modal-header">
                     <h5 class="modal-title mx-auto" id="loginModal">Welcome!</h5>
                 </div>
                 <div class="modal-body">
-                    <form action="">
+                    <form class="container" action="">
                         <div class="form-group row">
-                            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-                            <div class="col-sm-10">
-                              <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                            <label for="inputEmail" class="col-sm-3 col-form-label">Email</label>
+                            <div class="col-sm-9">
+                              <input type="email" class="form-control" id="inputEmail" placeholder="Email">
                             </div>
                           </div>
                           <div class="form-group row">
-                            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
-                            <div class="col-sm-10">
-                              <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                            <label for="inputPassword" class="col-sm-3 col-form-label">Password</label>
+                            <div class="col-sm-9">
+                              <input type="password" class="form-control" id="inputPassword" placeholder="Password">
                             </div>
                           </div>
-                          <fieldset class="form-group">
-                            <div class="row">
-                              <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
-                              <div class="col-sm-10">
-                                <div class="form-check">
-                                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                                  <label class="form-check-label" for="gridRadios1">
-                                    First radio
-                                  </label>
-                                </div>
-                                <div class="form-check">
-                                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                  <label class="form-check-label" for="gridRadios2">
-                                    Second radio
-                                  </label>
-                                </div>
-                                <div class="form-check disabled">
-                                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
-                                  <label class="form-check-label" for="gridRadios3">
-                                    Third radio
-                                  </label>
-                                </div>
-                              </div>
-                            </div>
-                          </fieldset>
+                            <p class="text-center mt-4">Not a member? <a href="">Sign up today!</a></p>
                     </form>
                 </div>
                 <div class="modal-footer justify-content-center">
@@ -137,73 +112,75 @@
         </div>
     </div>
 
-    <div class="card-columns">
+    <!-- body cards -->
+    <div class="card-deck mb-3">
       <div class="card">
         <img
-          class="card-img-top"
+          class="card-img-top h-75"
           src="/img/reflection-riding.jpg"
           alt="Card image cap"
         />
-        <div class="card-body">
-          <h4 class="card-title text-center mt-1">
+        <div class="card-body d-flex align-items-center justify-content-center">
+          <h4 class="card-title text-center">
             Reflection Riding Arboretum
           </h4>
         </div>
       </div>
       <div class="card">
         <img
-          class="card-img-top"
+          class="card-img-top h-75"
           src="/img/edwards-point.jpg"
           alt="Card image cap"
         />
-        <div class="card-body">
-          <h4 class="card-title text-center mt-1">Edward's Point</h4>
+        <div class="card-body d-flex align-items-center justify-content-center">
+          <h4 class="card-title text-center">Edward's Point</h4>
         </div>
       </div>
       <div class="card">
         <img
-          class="card-img-top"
+          class="card-img-top h-75"
           src="/img/bay-point-loop.jpg"
           alt="Card image cap"
         />
-        <div class="card-body">
-          <h4 class="card-title text-center mt-1">Bay Point Loop</h4>
+        <div class="card-body d-flex align-items-center justify-content-center">
+          <h4 class="card-title text-center">Bay Point Loop</h4>
         </div>
       </div>
-      <div class="card-columns"></div>
+    </div>
+    <div class="card-deck mb-3">
       <div class="card">
         <img
-          class="card-img-top"
+          class="card-img-top h-75"
           src="/img/big-soddy-creek.jpg"
           alt="Card image cap"
         />
-        <div class="card-body">
-          <h4 class="card-title text-center mt-1">Big Soddy Creek</h4>
+        <div class="card-body d-flex align-items-center justify-content-center">
+          <h4 class="card-title text-center">Big Soddy Creek</h4>
         </div>
       </div>
       <div class="card">
         <img
-          class="card-img-top"
+          class="card-img-top h-75"
           src="/img/foster-falls.jpg"
           alt="Card image cap"
         />
-        <div class="card-body">
-          <h4 class="card-title text-center mt-1">Foster Falls</h4>
+        <div class="card-body d-flex align-items-center justify-content-center">
+          <h4 class="card-title text-center">Foster Falls</h4>
         </div>
       </div>
       <div class="card">
         <img
-          class="card-img-top"
+          class="card-img-top h-75"
           src="/img/greenway-farms.jpg"
           alt="Card image cap"
         />
-        <div class="card-body">
-          <h4 class="card-title text-center mt-1">Greenway Farms Loop</h4>
+        <div class="card-body d-flex align-items-center justify-content-center">
+          <h4 class="card-title text-center">Greenway Farms Loop</h4>
         </div>
       </div>
     </div>
 
-    
+    <!-- footer -->
       <footer class="container-fluid">
           <div class="row align-items-center">
               <h5 class="col-12 text-center mt-3">Connect With Us!</h5>

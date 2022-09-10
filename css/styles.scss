@@ -1,6 +1,6 @@
 $color-primary: #42855B;
 $color-secondary: #90B77D;
-$color-pale: #D2D79F;
+$color-pale: #ecf1be;
 $color-dark: #483838;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
 
@@ -45,8 +45,33 @@ svg {
 }
 
 .modal-header,
-form {
+form,
+form a {
     color: $color-dark;
     font-weight: 600;
     letter-spacing: 0px;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+button.btn {
+    background-color: $color-primary;
+    color: $color-pale;
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 10rem;
+    margin-bottom: 1rem;
+}
+
+.modal-header {
+    color: $color-pale;
+    background-color: $color-dark;
+    width: 100%;
+}
+
+.modal-content {
+    font-size: 1.1rem;
 }
