@@ -2,7 +2,6 @@ h1, h4 {
   font-family: "Rock Salt", sans-serif; }
 
 .jumbotron,
-.card,
 .navbar-toggler {
   background-color: #42855B; }
 
@@ -57,3 +56,12 @@ nav button.btn {
 
 .modal-title {
   font-size: 3rem; }
+
+div.card {
+  padding: 1rem;
+  color: black;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); }
+
+h4.card-title {
+  font-weight: bolder;
+  font-size: calc(max(20px, 2vw)); }

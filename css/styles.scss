@@ -11,7 +11,6 @@ h1, h4 {
 }
 
 .jumbotron, 
-.card,
 .navbar-toggler {
     background-color: $color-primary;
 }
@@ -78,4 +77,15 @@ nav button.btn {
 
 .modal-title {
     font-size: 3rem;
+}
+
+div.card {
+    padding: 1rem;
+    color: black;
+    box-shadow: 2px 2px 5px $color-black-transparent;    
+}
+
+h4.card-title {
+    font-weight: bolder;
+    font-size: calc(max(20px, 2vw));
 }
