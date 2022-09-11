@@ -82,7 +82,8 @@ nav button.btn {
 div.card {
     padding: 1rem;
     color: black;
-    box-shadow: 2px 2px 5px $color-black-transparent;    
+    box-shadow: 2px 2px 5px $color-black-transparent;
+    width: calc(max(30%, 500px));
 }
 
 h4.card-title {
