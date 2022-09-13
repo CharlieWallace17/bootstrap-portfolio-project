@@ -84,9 +84,16 @@ div.card {
     color: black;
     box-shadow: 2px 2px 5px $color-black-transparent;
     width: calc(max(30%, 500px));
+    height: 500px;
 }
 
 h4.card-title {
     font-weight: bolder;
     font-size: calc(max(20px, 2vw));
+}
+
+.navbar-toggler-icon {
+    width: 32px;
+    height: 40px;
+    color: $color-dark;
 }
